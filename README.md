@@ -1,12 +1,13 @@
 # digitalnote-swap
-Use this wallet to swap your coins
+Use this wallet to swap your coins.
+
 This is a **MANDATORY** update for users that still have coins on the old network that need to be swapped to the new DigitalNote chain.  *If you do not need to swap your coins, already have swapped your coins, or are withdrawing coins from an exchange like Bittrex or Upbit then you do not need to download this update and you should only be using the new DigitalNote wallet software now (https://github.com/DigitalNoteXDN/DigitalNote-2/releases).*  This software update is ONLY for users who still have coins on the old chain and this patch is MANDATORY for these users to be able to swap their coins.  Once you complete the swap process via this update and our Discord bot you can delete this old chain software and move to the new DigitalNote wallet software linked above.  You can also delete the old blockchain from your harddrive once you move to the new one.
 
 • Detailed swap instructions are provided here: http://www.digitalnote.biz/xdn/pdf/DigitalNote_Swap_Instructions.pdf
 • The latest blockchain bootstrap is provided here (use this if you face syncing issues or if you just want to speed up the process): http://bootstrap.digitalnote.biz/xdn/7.0.4_998186.zip
 • App data files are located in ~/.digitalnote on Macs and ~/AppData/Roaming/digitalnote on Windows
 • If you have a deposit of XDN locked for a period longer than the swap period of 6 months, please contact our team on our Discord channel for assistance (https://discord.gg/4dUquty).  If you have a deposit set to unlock in under 6 months, simply wait until your deposit is unlocked and then swap it over.  We cannot unlock locked deposits manually.
-• If you require a different Linux build please contact us and we will attempt a compile for your distro.  The Linux binary we have provided was built on Linux Mint 18.1 Serena (libboost v1.58.0.1ubuntu1).
+• If you require a different Linux build please contact us and we will attempt a compile for your distro.  The Linux binary we have provided was built on Linux Mint 18.1 Serena (libboost v1.58.0.1 Ubuntu1).
 
 # Release Notes
 • The TX size limit bug from original dev has been fixed, the maximum block size increase is now enabled correctly (200KB max).  This will allow larger quantities of XDN to be swapped at a time to allow for a smoother transition.
